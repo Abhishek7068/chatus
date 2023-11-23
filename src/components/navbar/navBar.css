@@ -1,0 +1,71 @@
+
+.NavBar {
+    display: flex;
+    border-bottom: 1px solid grey; 
+    align-items: center;   
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    background-color:white;   
+
+}
+
+.Searchbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    padding: 5px;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.rightnavbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;    
+}
+
+.leftnavbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.LTitle {
+    font-weight: bold;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.InputSearch {
+    border: none;
+    width: 500px;
+    padding: 0px;
+
+}
+
+.UserProfile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.darkandlightbtn {
+    color: black;
+    background-color: white;
+}

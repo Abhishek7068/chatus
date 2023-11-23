@@ -1,0 +1,54 @@
+.container {
+    padding: 20px;
+}
+
+.userLeftBar, .Friends, .Groups, .Marketplace, .Watch, .Memories, .Events, .Gaming, .Gallery, .Videos, .Messages, .Fundraiser, .Tutorials, .Courses {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+}
+
+.UserProfile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+img {
+    width: 30px;
+}
+
+.menu {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+hr{
+    margin: 20px 0px;
+    border: none;
+    height: 0.5px;
+    background-color: lightgray;
+}
+
+span{
+    font-size: 14px;
+}
+
+.LeftBar {
+    flex: 2;
+    position: sticky;
+    overflow: scroll;
+    top: 70px;
+    height: calc(100vh - 70px);  
+    &::-webkit-scrollbar{
+        display: none;
+    } 
+    -webkit-box-shadow: 22px -13px 15px -26px rgba(0,0,0,0.9);
+    -moz-box-shadow: 22px -13px 15px -26px rgba(0,0,0,0.9);
+    box-shadow: 22px -13px 15px -26px rgba(0,0,0,0.9);
+}
+
